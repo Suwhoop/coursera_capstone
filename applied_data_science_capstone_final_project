@@ -1,0 +1,29 @@
+Matt Simpson
+	Applied Data Science Capstone
+	June 14, 2020
+  
+  
+                              Orange County, California 
+                                  Market Assessment 
+                          For New Korean Barbecue Restaurant
+                          
+                         
+                                 Table of Contents
+ 1. Introduction
+ 2. Data
+ 3. Methodology
+ 4. Results
+ 5. Discussion 
+ 6. Conclusion
+ 
+1. Introduction
+
+I am planning to open a Korean Barbecue restaurant in Orange County, California. 
+I am flexible on location so before determining where to rent I want to find a location in Newport Beach, 
+Irvine, or Tustin that is near bars but not near other Korean Barbecue restaurants. 
+Additionally I want to compare the cities to determine any distinctions between the three. 
+
+2. Data
+
+To complete the assessment I will be utilizing data from foursquare to look at the frequency 
+of different venue types within the neighborhoods of each city. 
