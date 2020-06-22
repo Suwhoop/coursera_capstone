@@ -1,6 +1,6 @@
 Matt Simpson
 	Applied Data Science Capstone
-	June 14, 2020
+	June 21, 2020
   
   
                               Orange County, California 
@@ -18,19 +18,43 @@ Matt Simpson
  
 1. Introduction
 
-I am planning to open a Korean Barbecue restaurant in Orange County, California. 
-I am flexible on location so before determining where to rent I want to find a location in Newport Beach, 
-Irvine, or Tustin that is near bars but not near other Korean Barbecue restaurants. 
-Additionally I want to compare the cities to determine any distinctions between the three.
+I am planning to open a Korean Barbecue (KBBQ) restaurant in Orange County, California. 
+I am flexible on location so before determining where to rent I want to find a location in Newport Beach 
+or Irvine. As everyone knows, KBBQ is most delicious after several beers, so I also want to find a location that is near bars but not near other Korean Barbecue restaurants. 
 The Target audience of this report is anyone who is considering opening a Korean Barbecue Restaurant in Newport Beach, 
-Irvine, or Tustin, California.
+Irvine, California.
 
 2. Data
 
-To complete the assessment I will be utilizing data from foursquare to look at the frequency 
-of different venue types and the location of each venue within the neighborhoods of each city.
-Additionally I will be using census data to determine population density for each city as well as 
-average income and total accommodation and food service sales to determine optimal menu pricing. 
+To explore the two cities, I will be utilzing location data from Ciclt and Opendata. To examine the competition I will be extracting data from
+from foursquare to look at the frequency of different venue types and the location of each venue within the neighborhoods of each 
+city.
+
+3. Methodology
+
+To begin I extracted the orange county zip codes from http://www.ciclt.net/sn/clt/capitolimpact/gw_ziplist.aspx?FIPS=06059, and US latitude and longitude from 
+https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/download/?format=csv&timezone=America/New_York&lang=en&use_labels_for_header=true&csv_separator=%3B.
+Next I clensed the data to include only the zip codes for Newport and Irvine, and only the latitude and longitude for those zip codes. 
+I then merged the location data to get the necesary information to extract the bar and KBBQ venue data from foursquare. 
+I extracted the venue data from foursquare and created seperate dataframes for Newport Bars, Newport KBBQ, Irvine Bars, and Irvine KBBQ. 
+Finnally I mapped all four dataframes.
+
+4. Results
+
+When the results were finnally mapped I had a clear destintion for my new restaurant. Newport currently has zero Korean Barbeque restaurants while Irvine has six. 
+In addition to the lack of competition in Newport, there are no bars as defined by foursquare in Irvine. 
+
+5. Discussion 
+
+While there was a clear answer based on the parameters that I set fourth in my introduction there are additional questions raised by the results. 
+Is there a reason why there are no KBBQ restaurants in Newport today? Is there a reason that there are no bar in Irvine? Is the lack of bars in Irvine another 
+business opportunity that should be explored?
+
+6. Conclusion
+
+Finally my conclusion, based on my the goal raised in the introduction is to open a KBBQ restaurant on the Newport peninsula. 
+As the only KBBQ restaurant in the area competition was not a factor, proximity to a bar on the other hand was a challenge. 
+This ladder challenge restricts my potential site to the Newport peninsula and it's surroundings. 
 
 
 
